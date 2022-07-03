@@ -1,0 +1,36 @@
+body{
+    background-color: #4781B8;
+    color: white;
+}
+header{
+    text-align: center;
+}
+section >h2,p{
+    text-align: center;
+}
+table{
+    margin: auto; border-collapse: collapse; width: 50%;
+}
+th,td{
+    border: 1px solid black;
+}
+th {
+    height: 70px; background-color: #B79448; color: white; text-transform: uppercase; font-family: Helvetica; font-size: 14px;
+}
+td{
+    height: 50px; background-color: #9448B7; color: white; font-size: 14px; font-family: helvetica;
+}
+.code{
+    height: 50px; background-color: #9448B7; color: white; font-size: 14px; font-family: helvetica;
+}
+a:hover{
+    font-size: 20px; color: red;
+}
+footer{
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: gray;
+}
